@@ -1,0 +1,174 @@
+html {
+  font-family: 'New Tegomin', serif;
+}
+
+body {
+  background-color: rgb(84, 57, 206);
+  color: white;
+  width: 100%;
+}
+  
+input {
+  margin: 10px 0px 5px 46px;
+}
+
+p {
+  font-size: 22px;
+  padding-left: 42px;
+}
+
+h2 {
+  font-size: 22px;
+  padding-left: 42px;
+}
+
+#name, #email, #number {
+  font-size: 17px;
+  width: 72%;
+  height: 40px;
+  border-radius: 5px;
+}
+
+#name-label, #email-label, #number-label {
+  margin: 10px 0px 5px 46px;
+  font-size: 23px;
+}
+
+#title {
+  text-align: center;
+}
+
+#description {
+  text-align: center;
+  font-style: italic;
+  font-size: 25px;
+}
+
+#survey-form {
+  background-color: rgb(40, 17, 102);
+  width: 45%;
+  margin: 0 auto;
+  padding: 32px 0 32px 0;
+}
+
+#dropdown-1 {
+  width: 65%;
+  height: 40px;
+  text-align: left;  
+  margin: 10px 0px 5px 54px;
+  font-size: 20px;
+}
+
+#dropdown-2 {
+  width: 65%;
+  height: 40px;
+  text-align: left;  
+  margin: 10px 0px 5px 54px;
+  font-size: 20px;
+}
+
+#textarea {
+  font-size: 20px;
+  max-width: 85%;
+  border-radius: 6px;
+  margin-left: 20%;
+  padding-left: 10px;
+}
+
+#submit {
+  width: 70%;
+  height: 40px;
+  background-color: rgb(41, 150, 64);
+  color: white;
+  font-size: 22px;
+  border-radius: 6px;
+}
+
+input[type="radio"] {
+  float: left;
+  padding-left: 12px;
+  margin-right: 12px;
+}
+
+input[type="checkbox"] {
+  float: left;
+  padding-left: 12px;
+  margin-right: 12px;
+}
+
+.label {
+  font-size: 22px;
+}
+
+@media screen and (min-width: 482px) {
+
+  body {
+    overflow-x:hidden;
+  }
+
+  #name, #email, #number {
+    font-size: 16px;
+  }
+  
+  #name-label, #email-label, #number-label {
+    font-size: 20px;
+  }
+  
+  #survey-form {
+    width: 45%;
+  }
+
+  #descriptipn {
+    font-size: 21px;
+  }
+
+  #textarea {
+    font-size: 17px;
+    max-width: 60%;
+    margin-left: 12%;
+  }
+  
+  #submit {
+    width: 50%;
+    font-size: 18px;
+    margin: 3% 9% 4% 18%;
+  }
+}
+
+@media screen and (max-width: 925px) {
+
+  body {
+    overflow-x:hidden;
+  }
+
+  p {
+    font-size: 19px;
+  }
+
+  #name, #email, #number {
+    font-size: 14px;
+  }
+  
+  #name-label, #email-label, #number-label {
+    font-size: 17px;
+  }
+
+  #description {
+    font-size: 17px;
+  }
+  
+  #survey-form {
+    width: 68%;
+  }
+  
+  #textarea {
+    font-size: 17px;
+    margin-left: 13%;
+  }
+   
+  #submit {
+    width: 40%;
+    font-size: 18px;
+    margin: 3% 9% 4% 28%;
+  }
+}
